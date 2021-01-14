@@ -3,7 +3,6 @@ body {
 }
 header {
     background-color: #fffbf0;
-    height: 100vh;
 }
 main {
     background-color: #e5e5e5;
@@ -36,12 +35,11 @@ h1 {
     border-radius: 10px;
 }
 
-/* #woman,
+#woman,
 #man,
 #service {
-    height: 100vh;
     background-color: #e5e5e5;
-} */
+}
 .service-section img {
     width: 100%;
 }
