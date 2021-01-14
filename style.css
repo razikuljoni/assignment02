@@ -4,9 +4,7 @@ body {
 header {
     background-color: #fffbf0;
 }
-main {
-    background-color: #e5e5e5;
-}
+
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -30,16 +28,16 @@ h1 {
 .card-img-top {
     width: 100%;
     height: 350px;
-    background-color: grey;
+    background-color: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
 }
-
+/*
 #woman,
 #man,
 #service {
     background-color: #e5e5e5;
-}
+} */
 .service-section img {
     width: 100%;
 }
@@ -54,4 +52,32 @@ h1 {
 }
 .row {
     align-items: center !important;
+}
+/* Footer section */
+.footer{
+    border-bottom: 1px solid #343638;
+}
+
+.footer-widget .h4{
+    color: #ddd;
+}
+
+.footer-widget ul a{
+    color: rgb(168, 167, 167);
+    display: block;
+    margin-bottom: .5rem;
+
+}
+
+.footer-widget ul a:hover{
+    color: rgb(39, 39, 185);
+}
+
+.footer, .copyright{
+    background-color: black;
+    color: rgb(168, 167, 167);
+}
+
+.payment{
+    font-size: 30px;
 }
